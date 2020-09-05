@@ -12,8 +12,6 @@ import {
 import {Link} from "react-router-dom";
 
 const Post = (props) => {
-	// console.log(props);
-
 	const {id, title, body} = props.post;
 
 	const useStyles = makeStyles({

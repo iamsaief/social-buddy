@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import Post from "../Post/Post";
-import {Grid, Container, Box, GridList, makeStyles} from "@material-ui/core";
+import {Container, Box, makeStyles} from "@material-ui/core";
 
 const Body = () => {
 	// Fetch post and store it on state
