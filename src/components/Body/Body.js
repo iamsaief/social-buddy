@@ -27,13 +27,6 @@ const Body = () => {
 	return (
 		<Box py="2.5rem">
 			<Container maxWidth="lg">
-				{/* <Grid container spacing={3} justify="center">
-					{posts.map((post) => (
-						<Grid item sm={4} key={post.id}>
-							<Post post={post}></Post>
-						</Grid>
-					))}
-				</Grid> */}
 				<div className={classes.wrapper}>
 					{posts.map((post) => (
 						<div key={post.id} className={classes.item}>
